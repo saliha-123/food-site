@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+nav img{
+    height: 60px;
+    width: 150px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    
+}
+nav a:hover{
+    color: goldenrod;
+}
+.banner img{
+    width: 100%;
+}
+.about{
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+}
+.about h1{
+    padding: 15px;
+    font-weight: 100;
+    font-size: xx-large;
+    color: grey;
+}
+.about h1:hover{
+    color: goldenrod;
+}
+.about p{
+    padding-inline: 20px;
+}
+.products h1{
+    text-align: center;
+    padding: 15px;
+    font-weight: 100;
+    font-size: xx-large;
+    color: grey;
+}
+.products h1:hover{
+    color: goldenrod;
+}
+.row{
+    width: 100%;
+    margin-bottom: 0px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.col{
+    width: 270px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    /* float: left; */
+}
+.col:hover{
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+.col h3{
+    text-align: center;
+    padding: 5px 0;
+    font-weight: 10px;
+    color: rgb(51, 50, 50);
+}
+.col img{
+    width: 100%;
+    height: 170px;
+}
+
+#btn{
+    margin: 0 40%;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 5%;
+    padding: 6px;
+
+}
+#btn:hover{
+    background-color: goldenrod;
+    color: white;
+}
+
+footer {
+    background-color: rgb(234, 233, 233);
+    padding: 30px 0;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+footer a {
+    margin: 0 5px;
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: goldenrod;
+}
+footer h3{
+    font-weight: 10px;
+    margin: 10px;
+}
